@@ -217,7 +217,9 @@ body .container .coffee_card .coffee_item .back_card {
   -webkit-transition: all  .5s linear;
   transition: all  .5s linear;
   height: 100%;
-  background-color: #131313fc;
+  background-color: #13131343;
+  -webkit-backdrop-filter: blur(2px);
+          backdrop-filter: blur(2px);
   text-align: center;
 }
 
@@ -238,8 +240,8 @@ body .container .coffee_card .coffee_item .back_card span {
   height: 80%;
   line-height: 30px;
   width: 100%;
-  -webkit-transition: all 0.9s cubic-bezier(0.165, 0.84, 0.44, 1);
-  transition: all 0.9s cubic-bezier(0.165, 0.84, 0.44, 1);
+  -webkit-transition: all 1.2s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: all 1.2s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
 body .container .coffee_card .coffee_item .back_card p {
